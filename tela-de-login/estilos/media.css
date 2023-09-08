@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .formulario > h1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .formulario > p {
+        margin-bottom: 30px;
+    }
+
+    .login {
+        width: 90vw;
+        height: 70vh;
+    }
+
+    .imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: right;
+        width: 70%;
+    }
+
+    .formulario > p {
+        font-size: 1em;
+    }
+
+    input[type=submit] {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .login {
+        width: 920px;
+    }
+    
+    .imagem {
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: left;
+        width: 70%;
+    }
+    
+    .formulario > h1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 2em;
+    }
+    
+    .formulario > p {
+        padding-bottom: 50px;
+        font-size: 1.2em;
+        text-shadow: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    .formp {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .img {
+        display: block;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    input[type=submit] {
+        margin-top: 40px;
+    }
+    .botao {
+        margin-top: 20px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+}

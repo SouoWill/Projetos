@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+    --font1: 'Hanken Grotesk', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 100vh;
+    background-color: white;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    text-align: center;
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 20px;
+}
+
+.p-sec1 {
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 13px;
+    width: 300px;
+}
+
+.p-circulo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color: white;
+    background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.de-100 {
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+}
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 252);
+}
+
+h2 { 
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 80vw;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: hsl(221, 100%, 96%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+}
+
+img {
+    padding-right: 20px;
+}
+
+.p-red {color: hsl(0, 100%, 67%); text-shadow: 0px 0px 1px rgb(212, 89, 89);}
+.p-yellow {color: hsl(39, 100%, 56%); text-shadow: 0px 0px 1px rgb(246, 250, 0);}
+.p-green {color: rgba(59, 185, 185, 0.856); text-shadow: 0px 0px 1px rgb(0, 255, 234);}
+.p-blue {color: hsl(234, 85%, 45%); text-shadow: 0px 0px 1px rgb(0, 68, 255);}
+
+.botao {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.466);
+}
+
+.botao:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.466);
+    transition-duration: .3s;
+    color: rgb(255, 255, 255);
+    background-color: hsl(224, 30%, 17%);
+    position: relative;
+    left: 1px;
+    top: -1px;
+}
+
+.rodape {
+    font-size: 11px; text-align: center; 
+    display: none;
+}
+
+.rodape > a {
+    color: hsl(228, 45%, 44%);
+}
